@@ -708,7 +708,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d8543cc896f8db2e575b767382c05863cfbbd3f949103108a6035018acbce293",
+      "sha256": "8baaf39d4cac5ebeafed7d5192161f3798b18a7cf04d778a205ccd85c8801dcf",
       "source": "publication/package-template/README.md",
       "changes": []
     },
