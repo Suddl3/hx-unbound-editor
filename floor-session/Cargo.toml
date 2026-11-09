@@ -1,0 +1,12 @@
+[package]
+name = "floor-boost-session"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "GPL-3.0-or-later"
+
+[dependencies]
+serde_json = "1"
+hx-catalog = { path = "../vendor/tonepush/crates/hx-catalog" }
+hx-proto = { path = "../vendor/tonepush/crates/hx-proto" }
+hx-usb = { path = "../vendor/tonepush/crates/hx-usb" }

@@ -1,0 +1,32 @@
+.signal-graph{width:100%;min-width:620px;padding:8px;color:var(--swap-ink)}
+.signal-lane{position:relative;isolation:isolate;display:grid;grid-template-columns:26px repeat(10,minmax(0,1fr));gap:4px;align-items:start;padding:12px 0}
+.signal-lane:before{content:"";position:absolute;left:6%;right:4%;top:30px;height:2px;background:var(--swap-muted);z-index:-1}
+.signal-lane>strong{padding-top:10px;font:11px Consolas,monospace;color:var(--swap-muted)}
+.flow-cell{border:0;background:none;color:var(--swap-ink);padding:0;display:grid;justify-items:center;gap:4px;min-width:0;text-align:center}
+.flow-cell b{width:34px;height:34px;display:grid;place-items:center;border-radius:6px;border:1px solid var(--swap-muted);background:var(--swap-surface);font:600 20px Consolas,monospace}
+.flow-cell small{font:10px/1.2 Consolas,monospace;overflow-wrap:anywhere}.flow-cell.empty{color:var(--swap-muted)}.flow-cell.empty b{border-style:dashed;font-size:13px}.flow-cell.terminal b{border-radius:50%}
+.flow-cell.occupied b{background:#743b31;color:#fff3df}.flow-cell.tone-delay b{background:#33594d}.flow-cell.tone-pedal b{background:#74532e}
+.flow-cell[aria-pressed=true] b{outline:2px solid var(--swap-accent);outline-offset:2px}
+.flow-cell.bypassed b{opacity:.55}
+#offlinePath{overflow-x:auto;background:var(--swap-path);border-bottom:1px solid var(--swap-rule)}
+#offlinePath .signal-graph{box-sizing:border-box}
+#boostReplay{margin-bottom:16px;border:1px solid var(--swap-rule);border-radius:8px;padding:12px 16px;background:var(--swap-surface)}
+#boostReplay summary{cursor:pointer;font-weight:600}
+#replayGraph{overflow-x:auto;background:var(--swap-path);margin-top:12px}
+.left{min-width:0}
+#captureSearch{width:100%;margin-top:12px;padding:8px 10px;color:var(--swap-ink);background:var(--swap-surface);border:1px solid var(--swap-rule);border-radius:5px}
+#tonePresets,#sourceComparison,#myRigs{margin-bottom:16px;border:1px solid var(--swap-rule);border-radius:8px;padding:12px 16px;background:var(--swap-surface)}
+#tonePresets summary,#sourceComparison summary,#myRigs summary,.source-section summary{cursor:pointer;font-weight:600}
+.shelf-actions,.shelf-actions label{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.shelf-actions{margin:12px 0 8px}
+#shelfList{max-width:min(65vw,30em);padding:5px;background:var(--swap-surface);color:var(--swap-ink)}
+.source-section{margin-top:8px;border-top:1px solid var(--swap-rule);padding-top:8px;font-size:13px}
+.source-readings{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:5px 12px;max-width:640px}
+.source-readings dt,.source-readings dd{margin:0;overflow-wrap:anywhere}
+.source-readings dd{font-family:var(--mono);font-size:12px}
+#tonePresets label{display:flex;align-items:center;gap:10px;margin-top:12px}
+#tonePresetList{max-width:70%;padding:5px;background:var(--swap-surface);color:var(--swap-ink)}
+#tonePresetBlocks{list-style:none;margin:12px 0 0;padding:0}
+#tonePresetBlocks li{padding:5px 0;border-bottom:1px solid var(--swap-rule)}
+#openToneDraft{margin-top:8px}
+.track:has(.signal-graph){display:block;padding:0}.track:has(.signal-graph):before{display:none}

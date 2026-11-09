@@ -1,0 +1,794 @@
+{
+  "format": 1,
+  "status": "experimental public source preview; local review, not published",
+  "licenseDecision": "Owner approved GPL-3.0-or-later; original third-party licenses retained.",
+  "files": [
+    {
+      "path": "capture_library.py",
+      "sha256": "f2291030b5614c9d9c644f6fada34dc2a9b5d015546332253582d5e20da4b3f6",
+      "source": "capture_library.py",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor_boost.py",
+      "sha256": "46c6f8c9dc9dae9de77fca831646d8e9043003b7513b5fd6bf92998d9e45aa06",
+      "source": "floor_boost.py",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "floor_configured_blocks.py",
+      "sha256": "8006698f9f4feb27c3d31f94b1479b0a7db4d87cd60adab1734ea5258e22ea1d",
+      "source": "floor_configured_blocks.py",
+      "changes": []
+    },
+    {
+      "path": "floor_control_session.py",
+      "sha256": "1248f6f62c688db14aaaa5882283bf8266d6f8e816c6ac4b99c6d9c9e9e36809",
+      "source": "floor_control_session.py",
+      "changes": []
+    },
+    {
+      "path": "floor_ir_import.py",
+      "sha256": "5fc97be8fe0dd5563d3d11803ad8faa483ecb141b7fe9c3dab19b4bf17af48af",
+      "source": "floor_ir_import.py",
+      "changes": []
+    },
+    {
+      "path": "floor_live_editor.py",
+      "sha256": "c301a14c9018e7ba597d4b8e6f853aeadfa36c8f3b246ac2c4631722cde419eb",
+      "source": "floor_live_editor.py",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "floor_nam_install.py",
+      "sha256": "97e4df7d5c95fb9bc9956d17cfadda307ff37c9e217b07fe4e5170475c74b373",
+      "source": "floor_nam_install.py",
+      "changes": []
+    },
+    {
+      "path": "floor_nam_navigation.py",
+      "sha256": "d1e579a8cd063d592242cdee0141ea460409ac5ebebc05d2dfde1db9cb872dae",
+      "source": "floor_nam_navigation.py",
+      "changes": []
+    },
+    {
+      "path": "floor_slot_labels.py",
+      "sha256": "19fb10c538731524ec0c3a025962a01fa13173729e14fb6b4ec224b0090a2844",
+      "source": "floor_slot_labels.py",
+      "changes": []
+    },
+    {
+      "path": "floor_visual_catalog.py",
+      "sha256": "880eca55cd74822a56ca7bcc131912fd0b515c67b9b9cd5d3fefff6032e146ec",
+      "source": "floor_visual_catalog.py",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "inspect_tone_rigs.py",
+      "sha256": "112553db82bb1c36d160ac9b8dfff6b53ddb0c63defec45345b5e38a267f8bfd",
+      "source": "inspect_tone_rigs.py",
+      "changes": []
+    },
+    {
+      "path": "prepare_floor_lite_capture.py",
+      "sha256": "9f08e20f9a999b826c61db76a5af8c3f5d5c6e16f3718b38042d63f740a9d70d",
+      "source": "prepare_floor_lite_capture.py",
+      "changes": [
+        "Keep generic converter only; remove personal capture CLI and identities."
+      ]
+    },
+    {
+      "path": "tone_preset.py",
+      "sha256": "5831755678656612ab2aadd5dca706fc48407e2c15944cc41b997766bb1aba00",
+      "source": "tone_preset.py",
+      "changes": []
+    },
+    {
+      "path": "design/backup-browser.js",
+      "sha256": "298de316c2463fee104e4c8813014c1d58a616d2e2414dfab32c2e0becb1e498",
+      "source": "design/backup-browser.js",
+      "changes": []
+    },
+    {
+      "path": "design/boost-replay.js",
+      "sha256": "a2381b0e88180e6ac75e41a90969abccafdfb2a628eb1298e575e0a4a048ef57",
+      "source": "design/boost-replay.js",
+      "changes": []
+    },
+    {
+      "path": "design/command-center.js",
+      "sha256": "570a89d0d884da00bc7e021eadfd4660bcf8047920249062dfa837740fd41883",
+      "source": "design/command-center.js",
+      "changes": []
+    },
+    {
+      "path": "design/configured-favorites.js",
+      "sha256": "8c463eccd92dc48e3373b0e7b7a1ed62c850c6399d2c0c1690a1d7eb80527356",
+      "source": "design/configured-favorites.js",
+      "changes": []
+    },
+    {
+      "path": "design/floor-block-events.js",
+      "sha256": "508f004bd0dfcaa5892e0b7734049a2ed34eb7e1e12d1c91d10ee311d30335e3",
+      "source": "design/floor-block-events.js",
+      "changes": []
+    },
+    {
+      "path": "design/floor-librarian.js",
+      "sha256": "b3c034f944be01fa983d38863f1bb1a6e3dc0a7c0cb0a56315862a6f2b06de8b",
+      "source": "design/floor-librarian.js",
+      "changes": []
+    },
+    {
+      "path": "design/gear-diagrams.js",
+      "sha256": "496aecb3433949b9ce512a4d8d98492c28fd1a30d7dc7e86dd05098f95917abd",
+      "source": "design/gear-diagrams.js",
+      "changes": []
+    },
+    {
+      "path": "design/live-block-move.js",
+      "sha256": "9005c0959e65d8e9d18ea88bdca8f416a7d8fae7337e974669ea82025231574b",
+      "source": "design/live-block-move.js",
+      "changes": []
+    },
+    {
+      "path": "design/live-controllers.css",
+      "sha256": "0873597be7709b5b3e3fd6fbc6ca45a3daa9191971382f41d8328f31be1bb9ee",
+      "source": "design/live-controllers.css",
+      "changes": []
+    },
+    {
+      "path": "design/live-controllers.js",
+      "sha256": "ffc1497c2c22fb953c63cbb6bb922b3e3c7c79920ce288fec68275346c84badc",
+      "source": "design/live-controllers.js",
+      "changes": []
+    },
+    {
+      "path": "design/live-controls.css",
+      "sha256": "48f51fa226403584a7ada722058d94036996fec4e270c82dbcd8d9d3ffea350a",
+      "source": "design/live-controls.css",
+      "changes": []
+    },
+    {
+      "path": "design/live-controls.html",
+      "sha256": "c7f09b829cea1fb8629e8e499f32e33cd4a6501a030e5e0d3106dcebd3a9feb6",
+      "source": "design/live-controls.html",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "design/live-controls.js",
+      "sha256": "6137f3d7e3958e26726a5ee2bdb9cb2b1482315197b05a4376148e140ef886a3",
+      "source": "design/live-controls.js",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "design/live-model-browser.css",
+      "sha256": "395d4e2f29cf547b7e45fc5a899049ca8935bb95522ef37a5229cb7cba2af7ab",
+      "source": "design/live-model-browser.css",
+      "changes": []
+    },
+    {
+      "path": "design/live-model-browser.js",
+      "sha256": "5e3dd507619bab017356a4ad0ac26cf3486a9753b28ed509d406674101ee4315",
+      "source": "design/live-model-browser.js",
+      "changes": [
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI.",
+        "Explicit accessible names for capture classification controls."
+      ]
+    },
+    {
+      "path": "design/live-routing.js",
+      "sha256": "561456261ec9caac4a67a81ddd013eff81f78d82cf11e81c4431d754b98319b4",
+      "source": "design/live-routing.js",
+      "changes": []
+    },
+    {
+      "path": "design/live-snapshots.js",
+      "sha256": "5b1ee5ff4d7de0c5b445efd4344e1645f8fd503b9f11ffb1eb3b22b2de4ef723",
+      "source": "design/live-snapshots.js",
+      "changes": []
+    },
+    {
+      "path": "design/live-swap.css",
+      "sha256": "88e0e194ce684c8bbd05ae8bb3983fd3efd7338100f1c42d6ef377d059c576ed",
+      "source": "design/live-swap.css",
+      "changes": []
+    },
+    {
+      "path": "design/preset-files.js",
+      "sha256": "3705161dd8a36c5598dab2a5fa2d75f70cb482db15c5888a56979c9bb99538a2",
+      "source": "design/preset-files.js",
+      "changes": []
+    },
+    {
+      "path": "design/preset-save.js",
+      "sha256": "c788de2fc22967dd1ce80e99a01507c3b65671ae1ce8effe7e2e4b5f485b2fda",
+      "source": "design/preset-save.js",
+      "changes": []
+    },
+    {
+      "path": "design/rig-shelf.js",
+      "sha256": "97db0d1b99de43be996c724ecd67550f002e420090a17ad2ca0612f28d544500",
+      "source": "design/rig-shelf.js",
+      "changes": []
+    },
+    {
+      "path": "design/signal-path.css",
+      "sha256": "d8accefef5397aa779b7d4d6be5bfffb5450eb46ef2eddd769f385616e3ff9ad",
+      "source": "design/signal-path.css",
+      "changes": []
+    },
+    {
+      "path": "design/signal-path.js",
+      "sha256": "dadd889ffe27862ec4f7d4d2bee37c81f4fb2bcb43f8b70c669a3a83563eeedb",
+      "source": "design/signal-path.js",
+      "changes": []
+    },
+    {
+      "path": "design/swap-theme.css",
+      "sha256": "8b088b4702ce8d7eddaa1d455386cc75e9f0902f42ee00be44a1211325779315",
+      "source": "design/swap-theme.css",
+      "changes": []
+    },
+    {
+      "path": "design/swap-theme.js",
+      "sha256": "2180f3cf38d9023d1b947f9f2370c8ea6233f840ea04d3f017559954bb5cebcc",
+      "source": "design/swap-theme.js",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/LICENSE",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/NOTICE",
+      "sha256": "53afa6cbdcd78226023f8a06a74b4650d204a8091e1b5291bf8e34623fedd414",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/NOTICE",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/tools/nam2ir.py",
+      "sha256": "97e9529e9176efc56425cd8fa2f3810a7f37e80030c95cf7bcd18c238250acc6",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/tools/nam2ir.py",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/tools/sharc/nam_lite.py",
+      "sha256": "cdb46a7fa032609311692b273e628ebd514b796fde517b9945b70dc1791b1ded",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/tools/sharc/nam_lite.py",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/tools/sharc/nam_pack.py",
+      "sha256": "c18782af2a5e2d81e36ff1060ee161f27091782f8f157929c273aea1c694b789",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/tools/sharc/nam_pack.py",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/tools/sharc/sasm.py",
+      "sha256": "36d3b372f98c3a8375ead6263541cc5bfb5a9fe784cb094c0433384d0954846a",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/tools/sharc/sasm.py",
+      "changes": []
+    },
+    {
+      "path": "vendor/nam/tools/sharc/ssim.py",
+      "sha256": "acc64edafc7efc73c263cc387fa97591accb98421845a48905ae9733f6ee094b",
+      "source": "savedadodo/helix-floor-nam-lite@c7cd0bacaf7e08c0de2b5fedfccb05d13826e9f0/tools/sharc/ssim.py",
+      "changes": []
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "source": "GPL-3.0 license text",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/frame.rs",
+      "sha256": "8c440aa67e8e20638a76276111fbda9ec41f474ebd28f8dfe91094c5ec5e311c",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/frame.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/lib.rs",
+      "sha256": "0d724cc7c579063af7ec795b4706d41df3c974d97cd90fa2fe1c7207f7ca488b",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/lib.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/msgpack.rs",
+      "sha256": "d9a89e5b6696c8e11c5e0e9c339f9687e4ae4a47dcb3f16404779386620d3cd3",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/msgpack.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/preset.rs",
+      "sha256": "7fde611551eefc592d4642a40157d6201b414f76fb82a9a01354726d344f4dac",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/preset.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/rpc.rs",
+      "sha256": "603e5dac6cf82d060f2c2ca7c45f791124d779f42775271755c1b9c076160ffb",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/rpc.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/src/settings.rs",
+      "sha256": "b4fc13aaab3642d66ed3bc598ddbc0db4c4d6facd6d9eb430a04c7ad62dadb9d",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/src/settings.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/tests/fixtures_roundtrip.rs",
+      "sha256": "6ce8cf6121303966234d4a2a2534cb1eb9a4c4f05d39d20cda5a72fea72cb9d3",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/tests/fixtures_roundtrip.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/tests/roundtrip.rs",
+      "sha256": "e2051b7e7cd95e51017796a58be5addcbf0a49cfae98af0ba69b0dc2f7159518",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/tests/roundtrip.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/Cargo.toml",
+      "sha256": "622484501c757bd9c303b3b36a0d884e253032b6085d6580ba67c7cdd835eb89",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/Cargo.toml",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/backup.rs",
+      "sha256": "bedc8bebe16f99d531c8b917ef7d015b8d5f05b61916f683af2da7a475f9618c",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/backup.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/commands.rs",
+      "sha256": "0b8ba001c671534dade39311ffd48c56997144fcf2096807201c487b7fa9dbc3",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/commands.rs",
+      "changes": [
+        "Local changes retained; see patches/tonepush-local.patch"
+      ]
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/fake.rs",
+      "sha256": "aaf632053d587c03a6726f86b7fcab8580879bec06f955a781a400657f7e3fe7",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/fake.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/ir.rs",
+      "sha256": "740b3c358add3e08b7912916066899bcc221d7a2764f56c19796e5a53657ec47",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/ir.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/lib.rs",
+      "sha256": "13061452bc3db386b3dd143fb8ea837a2ede4d6cccb6896befc82319714d7700",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/lib.rs",
+      "changes": [
+        "Local changes retained; see patches/tonepush-local.patch"
+      ]
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/notification_tests.rs",
+      "sha256": "405f4dc8f7dab9d9a2676b1d00df0a6bc2e0fbb4eb91e298cb0b103f6b4c3368",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/notification_tests.rs",
+      "changes": [
+        "Local changes retained; see patches/tonepush-local.patch"
+      ]
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/src/replay.rs",
+      "sha256": "142b54238ad656ced4dbfcb9785b4fd38fc95ee0a702b2ec908e13dba3f6e461",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/src/replay.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/tests/device.rs",
+      "sha256": "5825c513b1ac30d0f65df8f00ed7cf50c85eb86bb4abf4f440e9f72ee4b1f19e",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/tests/device.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/tests/generate_fixtures.rs",
+      "sha256": "984036cb04be24a2bd5741545c0a4a4399ce81e4f083627576dfbb9693c4130e",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/tests/generate_fixtures.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/tests/replay.rs",
+      "sha256": "fb409b06395a950177b622e1bf6cdeec727a7f06ac60f6a1a7408e47517c2fea",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/tests/replay.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-usb/Cargo.toml",
+      "sha256": "1a94fc4754ba000df897b41cd7a2c3c224598728d8a9725fa770f4250700550b",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-usb/Cargo.toml",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/build.rs",
+      "sha256": "c4c862f533a9d1f7f3bf3c5478822bd98faa1b93e6304d1a7bfcb82b6226f002",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/build.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/extract.rs",
+      "sha256": "3f76c5d9cdef8dba55486f163bc9e8f125eee0b0283131bde9add9cf66e4fbf0",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/extract.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/format.rs",
+      "sha256": "5a44aaae1e9e19f1f5e273dc2750a544b3bfc8d505cb2422fa1ab0edaa4f39e7",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/format.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/home.rs",
+      "sha256": "726659e502af678b45204dad3e8006399cf6be176ff745f869a728165eeaf656",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/home.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/hxb.rs",
+      "sha256": "2f7678e890904d29d185b61d76b158893056f683d5b0f8c5ba1b2b2812db113c",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/hxb.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/inspect.rs",
+      "sha256": "6af4451802ce6b9e1fde77444fa41d49b943a2539ab1fa8819ef1bddfb82822b",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/inspect.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/lib.rs",
+      "sha256": "f26bbd65f2de4f7e6488b87a272a24bb31adc6524f7dd18fd8e68aea0be5cddb",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/lib.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/load.rs",
+      "sha256": "7849f04be67abdc570c53c9f7b12ed48964e29d24ffc8dd7339827eff824a4be",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/load.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/src/write.rs",
+      "sha256": "d8aac0b53cd2ad83d5090413833cd23372d7e272e3d54c178403761a07012dbf",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/src/write.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/tests/hlx_fixtures.rs",
+      "sha256": "39e8dded889e65d74a76292d2b8ecb230b258407bb5a0d2bd9eb4f5783d42844",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/tests/hlx_fixtures.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/tests/hlx_to_document.rs",
+      "sha256": "9dcf919006106081c255de06f2957e4d58c8584801c851540deb86ca62503c1f",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/tests/hlx_to_document.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/tests/type_tags.rs",
+      "sha256": "0b5ff44fe5e7440344a86f274ce756d8307135d7828c1ecdc4904a1a8568c981",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/tests/type_tags.rs",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-catalog/Cargo.toml",
+      "sha256": "ec09e1591cc8c1ad6c1f8e69127117e91c3c73aaba66bb5e7d761158c3155ed7",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-catalog/Cargo.toml",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/tests/fixtures/gen-01-empty.hxpreset",
+      "sha256": "d18e7eb4886beef4b0dd266d23cb7cc2ffc503ef84d88472ce2d4578739c8a03",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/tests/fixtures/gen-01-empty.hxpreset",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/tests/fixtures/gen-02-one-drive.hxpreset",
+      "sha256": "f8700beb00a7a3a1e9d890609a98d00a420dfe37146ff3e4ee4a9837ff6b9254",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/tests/fixtures/gen-02-one-drive.hxpreset",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/crates/hx-proto/tests/preset.bin",
+      "sha256": "101fdfb613e608b141d03a8f6d5e53ff062709067d3d3303f64cd87e0561b76f",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/crates/hx-proto/tests/preset.bin",
+      "changes": []
+    },
+    {
+      "path": "vendor/tonepush/LICENSE",
+      "sha256": "bb88b08f452b933a9e7cd83abc7f009a8e298e41dfc9bca9d6e50f0435b2fa43",
+      "source": "crmne/tonepush@dcdedcf1e45c5855e984e0ca552621e5463d5201/LICENSE",
+      "changes": []
+    },
+    {
+      "path": "patches/tonepush-local.patch",
+      "sha256": "68166d222f54d84ba48fd8fb41b4244ae14620d2a0ddcc7401b9eb47763299ff",
+      "source": null,
+      "changes": [
+        "Full local transport delta against archived upstream source."
+      ]
+    },
+    {
+      "path": "vendor/tonepush/Cargo.toml",
+      "sha256": "ad8318f7593cd08c2d5edc3408c65d941121563d610e215f9e161bb49c994f04",
+      "source": null,
+      "changes": [
+        "Limit vendored workspace to three dependency crates."
+      ]
+    },
+    {
+      "path": "floor-session/Cargo.toml",
+      "sha256": "b518f7de7560af5a4e259b1275f9b2d2c90cbfe548c254c5aadd788191296f9c",
+      "source": "floor-session/Cargo.toml",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/Cargo.lock",
+      "sha256": "12d49ef4ed589c712677003c1ba7996b4c053579ae2527bf550150ef0da6515c",
+      "source": "floor-session/Cargo.lock",
+      "changes": []
+    },
+    {
+      "path": "floor-session/src/backup_view.rs",
+      "sha256": "193ae123f0267fdeec7b88e7a949c7a06a8ae0f4026445b53562dde37fd9a59e",
+      "source": "floor-session/src/backup_view.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/bin/floor-editor.rs",
+      "sha256": "fc20ca8ece80a8bea52cc760e9683f0d9b8d75778988f81548a92c3fd847acb2",
+      "source": "floor-session/src/bin/floor-editor.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/block_copy.rs",
+      "sha256": "967393d0660f141f96ce361faaa3afa36674b194b7a32ad23f12c90f67976e5f",
+      "source": "floor-session/src/block_copy.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/block_move.rs",
+      "sha256": "1d3dc58f6aa42349d58a6da19b93b38479ef2aeeccdf2073fcf27933f9258707",
+      "source": "floor-session/src/block_move.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/configured_blocks.rs",
+      "sha256": "678434e97338cb553d7de785c3d6ec2af919753aa9fd92aa8f5442a6b8e4cf3c",
+      "source": "floor-session/src/configured_blocks.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/event_sync.rs",
+      "sha256": "5d00c97ccfba495c0d5de384999eb7f6508d5d482cd464b2ee4d74f542c2b54b",
+      "source": "floor-session/src/event_sync.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/floor_routing.rs",
+      "sha256": "26924944acb443c38b820e667109738f94ecf8c8a0f1cd8348b4628190bc4aa8",
+      "source": "floor-session/src/floor_routing.rs",
+      "changes": [
+        "packaging adaptation",
+        "Private recorded-Floor routing tests explicitly ignored in source distribution."
+      ]
+    },
+    {
+      "path": "floor-session/src/main.rs",
+      "sha256": "3252a02e577225d5506ea2cc87cda890ae6af41ba1b6ab5a2342f81a09389677",
+      "source": "floor-session/src/main.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/nam_storage.rs",
+      "sha256": "e269bf4317e62471a64849e43345ed8ce938118af5532e7bc9235b4958215182",
+      "source": "floor-session/src/nam_storage.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/parameter_controllers.rs",
+      "sha256": "edcd42394aced79848c0eeb892f4d457121b3e5c335dff4bdb5bef1657deed81",
+      "source": "floor-session/src/parameter_controllers.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/preset_save.rs",
+      "sha256": "1c6e11a395231bfdf6b909046eb040b7106be7f41fde0bcc0f1617da500df4f1",
+      "source": "floor-session/src/preset_save.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "floor-session/src/snapshots.rs",
+      "sha256": "eb92d8f7e154fe674af797c4be6d405bae51cb400d17d777637bff7e1f6283c2",
+      "source": "floor-session/src/snapshots.rs",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "verify_configured_favorites.py",
+      "sha256": "0a25cdc3bbc3403ede4b6b62ba4d105d86293b0f184184565a276a8b0918aa6a",
+      "source": "verify_configured_favorites.py",
+      "changes": []
+    },
+    {
+      "path": "verify_nam_navigation.py",
+      "sha256": "114ed389c9e3b890f2a22b19d2c9e643955a755101c619eb78d0a0ac6ebb2ebe",
+      "source": "verify_nam_navigation.py",
+      "changes": [
+        "packaging adaptation"
+      ]
+    },
+    {
+      "path": "verify_nam_shelf_workflow.py",
+      "sha256": "c92c16036474909f7c3614c1677253d064e55e1698871e2f2134f6e8ebb18302",
+      "source": "verify_nam_shelf_workflow.py",
+      "changes": [
+        "packaging adaptation",
+        "Public preview: offline startup, explicit device opt-in, blocked capture transfers, portable launch and no legacy personal UI."
+      ]
+    },
+    {
+      "path": "tests/synthetic-a2.json",
+      "sha256": "403afa924d61c81af04b2d2e8adf8b7ad162a17c223411f1834a6d56291aff09",
+      "source": null,
+      "changes": [
+        "Synthetic zero weights; only architecture/schema retained. Not a playable capture."
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d5a0e3ba5542190306bb7661990bb91e8ca49529884c2f8482d7c5fc74ea10a6",
+      "source": "publication/package-template/.gitignore",
+      "changes": []
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256": "ccd9927be5e80faf97ed739ea10622a3ffff422a995c69e1d55404a13dc30c86",
+      "source": "publication/package-template/docs/STATUS.md",
+      "changes": []
+    },
+    {
+      "path": "Launch HX Unbound.ps1",
+      "sha256": "d3b96dac6329c02b74c93bc9e34d9ad1438646bc55a33272fb055908b840aa63",
+      "source": "publication/package-template/Launch HX Unbound.ps1",
+      "changes": []
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "publication/package-template/LICENSES/Apache-2.0.txt",
+      "changes": []
+    },
+    {
+      "path": "README.md",
+      "sha256": "d8543cc896f8db2e575b767382c05863cfbbd3f949103108a6035018acbce293",
+      "source": "publication/package-template/README.md",
+      "changes": []
+    },
+    {
+      "path": "scripts/check_package.py",
+      "sha256": "749e363deb7f5f8bd4b75a3459fc8e6b80036facadd87b47d6fe8e216bf88d0b",
+      "source": "publication/package-template/scripts/check_package.py",
+      "changes": []
+    },
+    {
+      "path": "scripts/prepare_local.py",
+      "sha256": "8246a6e2746299ce638012c1959a1a977ada08902f0a3947734a3ef5d49a041a",
+      "source": "publication/package-template/scripts/prepare_local.py",
+      "changes": []
+    },
+    {
+      "path": "scripts/verify_offline.py",
+      "sha256": "e087791476b14bf93652ccbd3719decec404ab0530762c7f959c02f97e2841c8",
+      "source": "publication/package-template/scripts/verify_offline.py",
+      "changes": []
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "571041ad3b05e8c020daac00a2637f297c6c3ef7037da0d72a3c505ec0ccaf50",
+      "source": "publication/package-template/THIRD_PARTY.md",
+      "changes": []
+    },
+    {
+      "path": "requirements.txt",
+      "source": "publication/package-template/requirements.txt",
+      "changes": [],
+      "sha256": "8c45571d3b211abeda0e1d8cd1400ad9cc5327454494e1a6ad615629ebee1d3a"
+    },
+    {
+      "path": "docs/screenshots/nam-library-light.png",
+      "source": "publication/package-template/docs/screenshots/nam-library-light.png",
+      "changes": [],
+      "sha256": "73b5bf256507fae4bfc593e29df5426115801898325b6785e701d1efedd2dcc0"
+    },
+    {
+      "path": "docs/screenshots/shared-storage-dark.png",
+      "source": "publication/package-template/docs/screenshots/shared-storage-dark.png",
+      "changes": [],
+      "sha256": "9c6be1ce46e9e8f784ee5df1510c7a970d2a2fb7200af8a8ca85082fc25af35e"
+    },
+    {
+      "path": "docs/screenshots/signal-path-dark.png",
+      "source": "publication/package-template/docs/screenshots/signal-path-dark.png",
+      "changes": [],
+      "sha256": "d140efdba521ae3e6842aff71e9f31b35527ac726233087c91b01d72c8228897"
+    },
+    {
+      "path": "docs/UPSTREAM.md",
+      "source": "publication/package-template/docs/UPSTREAM.md",
+      "changes": [],
+      "sha256": "f8450cebc09051f349c5928055001e910f6bb24d654806b7115c1fa546fc29b8"
+    },
+    {
+      "path": "release_policy.py",
+      "source": "publication/package-template/release_policy.py",
+      "changes": [],
+      "sha256": "edb6d726f502922bba62405bfcc53df0929ca88e3e54426c20b044032348336d"
+    },
+    {
+      "path": "Stop HX Unbound.ps1",
+      "source": "publication/package-template/Stop HX Unbound.ps1",
+      "changes": [],
+      "sha256": "742975afbdcb4441a7413205cf2c31106277a4e38333c6d29695af876709ff06"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source": "publication/package-template/CONTRIBUTING.md",
+      "changes": [],
+      "sha256": "4fe2e4d16723480868b59d2ed720a700e00e299fb4a48519b476d8eed9f4192b"
+    },
+    {
+      "path": "verify_preview_policy.py",
+      "source": "publication/package-template/verify_preview_policy.py",
+      "changes": [],
+      "sha256": "844e9e4f40730a44b49152aa70372a76edc3611fc6acead07580237e487def71"
+    }
+  ]
+}

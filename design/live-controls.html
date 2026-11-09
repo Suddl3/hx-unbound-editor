@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-appearance="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HX Unbound · Signal path</title>
+<link rel="stylesheet" href="/design/signal-path.css"><link rel="stylesheet" href="/design/live-controls.css"><link rel="stylesheet" href="/design/live-model-browser.css">
+<link rel="stylesheet" href="/design/live-controllers.css">
+<script src="/design/live-block-move.js" defer></script>
+<script src="/design/preset-save.js" defer></script>
+<script src="/design/preset-files.js" defer></script>
+<script src="/design/backup-browser.js" defer></script>
+<script src="/design/command-center.js" defer></script>
+<script src="/design/live-routing.js" defer></script>
+<script src="/design/configured-favorites.js" defer></script>
+<script src="/design/signal-path.js"></script><script src="/design/live-model-browser.js" defer></script><script src="/design/live-snapshots.js" defer></script><script src="/design/live-controllers.js" defer></script><script src="/design/live-controls.js" defer></script></head>
+<body><header class="app-header"><div class="brand"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M3 22h6l5-13h6l-5 13h5l4-9h5" fill="none" stroke="currentColor" stroke-width="3"/></svg><strong>HX Unbound</strong></div>
+<div class="header-actions"><span id="connection" class="device"><i></i>Helix Floor</span><button id="connect">Connect Floor</button><select id="appearance" aria-label="Appearance"><option value="dark">Dark</option><option value="light">Light</option><option value="system">System</option></select></div></header>
+<p id="previewNotice" role="status" style="margin:0;padding:8px 18px;background:var(--panel);font-size:12px">Offline preview · Device access disabled</p>
+<div class="workbench"><aside class="librarian" aria-label="Librarian"><nav id="libraryTabs" aria-label="Library views"><button data-shelf="presets" aria-pressed="true">Presets</button><button data-shelf="irs">IRs</button><button data-shelf="nam">NAM</button><button data-shelf="favorites" aria-label="Favorites library" title="Favorites">★</button></nav>
+<select hidden id="shelf" aria-label="Browse"><option value="presets">Current setlist</option><option value="irs">Floor IR slots</option><option value="nam">Local NAM imports</option><option value="favorites">Favorites</option><option value="blocks">Blocks</option></select>
+<div class="library-title"><h2 id="sidebarTitle">Current setlist</h2><button id="updateList" aria-label="Refresh library" title="Refresh library">↻</button></div>
+<select hidden id="setlist" aria-label="Setlist"></select>
+<section id="configuredFavorites" hidden></section>
+<div id="storageSummary" hidden><strong>Floor storage</strong><p id="capacity"></p></div>
+<section id="irTools" aria-label="Floor storage" hidden>
+<select id="slotFilter" aria-label="Storage filter"><option value="IR">Impulse responses</option><option value="Unidentified">Unidentified</option><option value="all">All occupied slots</option></select>
+<p>Device transfers and slot-content identification are unavailable in this preview.</p><details hidden><summary>Import IR…</summary><label>Type <select id="irType"><option value="cab">Cabinet</option><option value="reverb">Reverb</option><option value="other">Other IR</option></select></label>
+<label>Mono 48 kHz WAV · up to 2,048 samples<input type="file" accept=".wav" id="irFile"></label><button id="installIR">Install IR on Floor</button></details></section>
+<div id="browse"><input type="search" id="find" placeholder="Filter presets" aria-label="Filter library"><div id="entries"></div></div>
+<details id="blockList"><summary>Current blocks</summary><div id="blocks"></div></details>
+<button hidden id="library">Open transfer librarian <span aria-hidden="true">↗</span></button></aside>
+<main><div class="presetbar"><div><span class="preset-icon" aria-hidden="true">▤</span><h1 id="preset">Current preset</h1></div>
+<div id="snapshotControls" hidden><label for="activeSnapshot">Snapshot</label><select id="activeSnapshot"></select><button id="editSnapshot" title="Snapshot settings" aria-label="Snapshot settings">⋯</button></div>
+<span id="presetSaveActions"></span><button id="presetFiles">Preset files…</button><span id="tempo"></span></div>
+<dialog id="presetFilesDialog" class="tag-dialog" aria-label="Preset files"><h2>Preset files</h2>
+<button id="exportNative" disabled>Export current .hxpreset</button>
+<p>Includes the edit buffer and snapshots. Captures and cabinet IRs stay in shared Floor storage.</p>
+<label>Inspect a local .hxpreset<input type="file" id="inspectNative" accept=".hxpreset"></label>
+<p id="fileSummary" role="status"></p><section id="backupBrowser"></section><button type="button" id="commandCenter">Command Center…</button><button id="closeFiles">Close</button></dialog>
+<dialog id="snapshotDialog" class="tag-dialog" aria-labelledby="snapshotHeading"><h2 id="snapshotHeading">Snapshot</h2>
+<form id="snapshotForm"><label>Name<input id="snapshotName" required maxlength="16" pattern="[ -~]{1,16}"></label>
+<label>Footswitch color<select id="snapshotColor"></select></label><button>Apply settings</button></form>
+<details id="snapshotCompare"><summary>Compare block bypasses</summary><div id="snapshotMatrix"></div></details>
+<p>Use the Floor to copy snapshot settings.</p>
+<button type="button" id="closeSnapshot">Close</button></dialog>
+<section class="path-area" aria-label="Signal path"><div class="path-tools"><h2>Signal path</h2><button id="zoom" title="Reset zoom" aria-label="Reset signal path zoom">100%</button></div><div id="viewport" tabindex="0" aria-label="Signal path, scroll to zoom"><div id="path"><p>Connect the Floor to see its signal path.</p></div></div></section>
+<div class="edit-area"><section class="browser" aria-label="Model browser"><div class="sectionbar"><h2>Model browser</h2><input id="modelSearch" aria-label="Search models" placeholder="Search models" type="search"></div>
+<div class="model-panes"><nav id="categories" aria-label="Model categories"></nav><div class="model-results"><div class="result-head"><h3 id="modelTitle">Models</h3><select id="instrumentFilter" aria-label="Instrument"><option value="">All instruments</option><option value="guitar">Guitar</option><option value="bass">Bass</option><option value="unknown">Unspecified</option></select>
+<div id="modelView" role="group" aria-label="Model browser view"><button type="button" data-view="grid" aria-pressed="true">Grid</button><button type="button" data-view="list" aria-pressed="false" title="List models alphabetically">List</button></div></div><div id="modelShelves" aria-label="Model types"></div><div id="modelTiles"></div></div></div></section>
+<section class="inspector-pane" aria-label="Block inspector"><div class="sectionbar"><h2>Block controls</h2><span id="location"></span></div><div id="inspector"><p>Select a block to edit.</p></div></section></div>
+</main></div><footer><span class="signal-led" aria-hidden="true"></span><p id="status" role="status">Connecting</p><button id="reportIssue">Log a problem</button><span>Helix Floor</span></footer>
+<dialog id="issueDialog" class="tag-dialog" aria-labelledby="issueTitle"><form id="issueForm"><h2 id="issueTitle">Log a Floor problem</h2>
+<label>Front panel<select name="panel" aria-label="Front panel"><option value="unknown">Unchecked</option><option value="responsive">Responding</option><option value="frozen">Frozen</option></select></label>
+<label>Guitar audio<select name="audio" aria-label="Guitar audio"><option value="unknown">Unchecked</option><option value="playing">Still playing</option><option value="interrupted">Interrupted</option></select></label>
+<label>What were you doing?<input name="action" maxlength="180" placeholder="e.g. playing, moving a boost, recalling a preset"></label>
+<div class="block-actions"><button type="button" id="cancelIssue">Cancel</button><button type="submit">Save local report</button></div>
+<p id="issueError" role="status"></p></form></dialog></body></html>

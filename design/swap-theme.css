@@ -1,0 +1,12 @@
+:root {
+ --swap-paper:#eeeae1; --swap-surface:#faf8f1; --swap-ink:#292f29;
+ --swap-muted:#586457; --swap-rule:#c8c7b7; --swap-tint:#e1e6d9;
+ --swap-accent:#456749; --swap-path:#d9dfd1; --swap-card:#f0eee5; --swap-drawing:#635e4b;
+}
+:root[data-appearance=dark] {
+ --swap-paper:#151a18; --swap-surface:#212824; --swap-ink:#f0f1e8;
+ --swap-muted:#b4c1b7; --swap-rule:#48554b; --swap-tint:#304334;
+ --swap-accent:#afcf96; --swap-path:#19221e; --swap-card:#282e29; --swap-drawing:#c8c7ae;
+}
+.appearance {display:inline-flex;align-items:center;gap:6px;color:#d9e0d5;font:12px "Segoe UI",sans-serif}
+.appearance select {background:#2c352f;color:#f3f5ed;border:1px solid #748172;border-radius:5px;padding:4px 6px;font:inherit;color-scheme:dark}

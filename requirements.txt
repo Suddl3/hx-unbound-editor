@@ -1,0 +1,2 @@
+# Used only for cropping locally installed HX Edit icon strips.
+Pillow==13.0.0

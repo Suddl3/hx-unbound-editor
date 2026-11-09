@@ -1,0 +1,6 @@
+.controller-panel { margin: 10px 0; padding: 8px 0; border-block: 1px solid var(--line); }
+.controller-panel summary { cursor: pointer; font-size: 12px; font-weight: 600; }
+.controller-fields { display: grid; gap: 6px; padding-top: 8px; }
+.controller-fields label { display: grid; grid-template-columns: minmax(70px, 1fr) minmax(90px, 1.5fr); align-items: center; gap: 6px; font-size: 12px; }
+.controller-fields :is(select,input) { min-width: 0; width: 100%; }
+.controller-fields small { color: var(--muted); overflow-wrap: anywhere; }
