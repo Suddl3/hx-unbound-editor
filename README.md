@@ -1,4 +1,12 @@
-# HX Unbound
+# HX Unbound Editor
+
+Part of the [HX Unbound community](https://github.com/Suddl3/hx-unbound). Find the other independent projects in the [community directory](https://github.com/Suddl3/hx-unbound/blob/main/PROJECTS.md).
+
+**Repository moved:** this editor was previously at `Suddl3/hx-unbound`. That address now hosts the community hub. For an existing editor checkout, update its remote before fetching or pushing:
+
+```sh
+git remote set-url origin https://github.com/Suddl3/hx-unbound-editor.git
+```
 
 An independent preset editor and NAM capture librarian for Line 6 Helix and HX devices.
 
